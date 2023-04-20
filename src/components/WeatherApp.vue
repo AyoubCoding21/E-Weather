@@ -1,22 +1,22 @@
-  <template>
-  <div class="weather-app">
-    <form class="search-form" @submit.prevent="fetchWeather">
-      <label for="city-input">Enter a city name:</label>
-      <input id="city-input" type="text" v-model="city" placeholder="E.g. London">
-      <button type="submit">Fetch Weather</button>
-    </form>
-    
-    <div class="weather-info" v-if="weather">
-      <h2 class="city-name">{{ city }}</h2>
-      <img class="weather-pic" :src="getWeatherIconUrl(weather.weather[0].icon)" :alt="weather.weather[0].description" />
-      <p class="weather-description">{{ weather.weather[0].description }}</p>
-      <p class="weather-temp">Temperature: {{ weather.main.temp }} &deg;C</p>
-      <p class="weather-feels-like">Feels Like: {{ weather.main.feels_like }} &deg;C</p>
-      <p class="weather-humidity">Humidity: {{ weather.main.humidity }}%</p>
-      <p class="weather-visibility">Visibility: {{ weather.visibility }} meters</p>
-      <p class="weather-wind-speed">Wind Speed: {{ weather.wind.speed }} m/s</p>
-    </div>
-  </div>
+<template>
+	<div class="weather-app">
+	    <form class="search-form" @submit.prevent="fetchWeather">
+	      <label for="city-input">Enter a city name:</label>
+	      <input id="city-input" type="text" v-model="city" placeholder="E.g. London">
+	      <button type="submit">Fetch Weather</button>
+	    </form>
+
+	    <div class="weather-info" v-if="weather">
+	      <h2 class="city-name">{{ city }}</h2>
+	      <img class="weather-pic" :src="getWeatherIconUrl(weather.weather[0].icon)" :alt="weather.weather[0].description" />
+	      <p class="weather-description">{{ weather.weather[0].description }}</p>
+	      <p class="weather-temp">Temperature: {{ weather.main.temp }} &deg;C</p>
+	      <p class="weather-feels-like">Feels Like: {{ weather.main.feels_like }} &deg;C</p>
+	      <p class="weather-humidity">Humidity: {{ weather.main.humidity }}%</p>
+	      <p class="weather-visibility">Visibility: {{ weather.visibility }} meters</p>
+	      <p class="weather-wind-speed">Wind Speed: {{ weather.wind.speed }} m/s</p>
+	    </div>
+	</div>
 </template>
 
 <script>
@@ -116,7 +116,7 @@
   }
   .weather-pic
   {
-	margin-bottom: 5px;
+	margin-bottom: 1px;
 	background-color: black;
 	width: 840;
 	height: 1040;
