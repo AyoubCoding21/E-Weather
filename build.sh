@@ -7,6 +7,7 @@ then
 else
     mkdir build;
 fi
+npm install
 npm run electron:build
 cp dist_electron/e-weather-1.0.0.AppImage build/
 rm dist_electron -rf
