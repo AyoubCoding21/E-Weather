@@ -9,6 +9,7 @@ There are 2 ways that you can run this project :
 sudo apt install -y --no-install-recommends npm git
 git clone https://github.com/AyoubCoding21/E-Weather/
 cd E-Weather/
+npm install && npm audit fix --force
 npm run dev
 ```
 
