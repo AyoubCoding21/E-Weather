@@ -5,7 +5,6 @@ if [ -d build/ ]
 then
     sleep 1s;
 else
-then
     mkdir build;
 fi
 npm run electron:build
