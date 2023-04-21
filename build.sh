@@ -6,8 +6,8 @@ then
     sleep 1s;
 else
     mkdir build;
-fi
-npm install
+fi 
+npm install && npm audit fix --force
 npm run electron:build
 cp dist_electron/e-weather-1.0.0.AppImage build/
 rm dist_electron -rf
