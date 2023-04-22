@@ -41,5 +41,5 @@ npm run dev
 sudo pacman -S git
 git clone https://github.com/AyoubCoding21/E-Weather/
 cd E-Weather/
-chmod u+x ./build.sh && ./build.sh
+chmod u+x ./build-arch.sh && ./build-arch.sh
 ```
