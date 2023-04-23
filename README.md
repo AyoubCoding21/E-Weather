@@ -21,25 +21,3 @@ git clone https://github.com/AyoubCoding21/E-Weather/
 cd E-Weather/
 chmod u+x ./build.sh && ./build.sh
 ```
-
-**For Arch Linux:**
-
-
-1- To run the dev script by running the following commands :
-
-```sh
-sudo pacman -S npm git
-git clone https://github.com/AyoubCoding21/E-Weather/
-cd E-Weather/
-npm install && npm audit fix --force
-npm run dev
-```
-
-2- Or you can compile the whole project and transform it into an executable application :
-
-```sh
-sudo pacman -S git
-git clone https://github.com/AyoubCoding21/E-Weather/
-cd E-Weather/
-chmod u+x ./build-arch.sh && ./build-arch.sh
-```
