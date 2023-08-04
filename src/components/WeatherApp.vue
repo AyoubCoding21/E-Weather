@@ -72,7 +72,7 @@ export default {
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
   .weather-app {
     max-width: 600px;
     margin: 0 auto;
@@ -93,7 +93,7 @@ export default {
     font-weight: bold;
     margin-right: 10px;
     color: orangered;
-    font-family: Poppins;
+    font-family: Montserrat;
   }
   
   .search-form input {
@@ -102,7 +102,7 @@ export default {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    font-family: Poppins;
+    font-family: Montserrat;
   }
   
   .search-form button {
@@ -113,7 +113,7 @@ export default {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    font-family: Poppins;
+    font-family: Montserrat;
   }
   
   .search-form button:hover {
@@ -128,14 +128,14 @@ export default {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 10px;
-    font-family: Poppins;
+    font-family: Montserrat;
     color: darkblue;
   }
   
   .weather-description {
     font-size: 24px;
     margin-bottom: 20px;
-    font-family: Poppins;
+    font-family: Montserrat;
   }
   
   .weather-temp,
@@ -149,7 +149,7 @@ export default {
   {
     font-size: 20px;
     margin-bottom: 10px;
-    font-family: Poppins;
+    font-family: Montserrat;
   }
   
   .weather-pic
@@ -165,7 +165,7 @@ export default {
     justify-content: space-between;
     margin-top: 20px;
     flex-wrap: wrap;
-    font-family: Poppins;
+    font-family: Montserrat;
   }
   
   .forecast-days {
@@ -174,7 +174,7 @@ export default {
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
-    font-family: Poppins;
+    font-family: Montserrat;
   }
   
   .forecast-day {
@@ -182,21 +182,21 @@ export default {
     font-weight: bold;
     margin-bottom: 10px;
     color: darkblue;
-    font-family: Poppins;
+    font-family: Montserrat;
   }
   
   .forecast-temp {
     font-size: 16px;
     margin-bottom: 5px;
     color: blue;
-    font-family: Poppins;
+    font-family: Montserrat;
   }
   
   .forecast-description {
     font-size: 14px;
     color: gray;
     margin-bottom: 10px;
-    font-family: Poppins;
+    font-family: Montserrat;
   }
   
   .forecast-pic {
