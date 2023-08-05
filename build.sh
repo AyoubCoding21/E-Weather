@@ -1,4 +1,4 @@
-echo -e "\e[0;33m${bold}Installing and building...\e[0m";
+echo -e "\e[1;33m${bold}Installing and building...\e[0m";
 sudo apt install npm -y --no-install-recommends;
 npm install && npm audit fix --force
 npm run electron:build
